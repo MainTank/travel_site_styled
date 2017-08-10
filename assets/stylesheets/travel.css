@@ -5,8 +5,6 @@ border included in the element's total width and height
 */
 * {
   box-sizing: border-box;
-  padding: 10px;
-  border: 3px;
 }
 
 
@@ -58,9 +56,9 @@ style the elements with a class of page-row
 */
 .page-row {
   width: 100%;
-  clear:both;
+  clear: both;
   padding: 5%;
-  margin: 2%;
+  margin: 2% 0 2% 0;
 }
 
 
@@ -81,13 +79,12 @@ style the elements with a class of card
   width: 20%;
   height: 300px;
   margin: 2.5%;
-  padding-top: 15%;
+  padding: 15% 0 0 0;
   float: left;
-  background-color: white;
+  background: white no-repeat;
   text-align: center;
   color: black;
   background-size: contain;
-  background-repeat: no-repeat;
 }
 
 
@@ -102,11 +99,9 @@ style the element with the id of hero
 #hero {
   width: 100%;
   height: 450px;
+  background: url("../images/travel_hero.jpg") no-repeat;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("../images/travel_hero.jpg");
 }
-
 
 /*
  target the element with the id of spain
@@ -153,22 +148,22 @@ style the element with the id of hero
 #masthead {
   width: 100%;
   height: 100px;
-  height: 100px;
+  line-height: 100px;
 }
 
 
 /*
- target the element with the id of nav-list and float it to the left
+ target the element with the id of logo and float it to the left
 */
-#nav-list {
+#logo {
   float: left;
 }
 
 
 /*
- target the element with the id of nav and float it to the right
+ target the element with the id of navbar and float it to the right
 */
-#nav {
+#navbar {
   float: right;
 }
 
@@ -180,10 +175,9 @@ style the element with the id of hero
 */
 #nav-list {
   margin: none;
-  padding-left: none;
+  padding: none;
   list-style: none;
 }
-
 
 /*
  target the elements with the class of nav-link
@@ -239,7 +233,7 @@ style the element with the id of hero
   - make the width 100%
 */
 table {
-  border: 2px solid;
+  border: 2px solid black;
   border-collapse: collapse;
   width: 100%;
 }
