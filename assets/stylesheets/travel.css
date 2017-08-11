@@ -159,9 +159,9 @@ style the element with the id of hero
 
 
 /*
- target the element with the id of nav-list and float it to the left
+ target the element with the id of logo and float it to the left
 */
-#nav-list {
+#logo {
   float: left;
 }
 
@@ -169,7 +169,7 @@ style the element with the id of hero
 /*
  target the element with the id of nav and float it to the right
 */
-#nav {
+#navbar {
   float: right;
 }
 
